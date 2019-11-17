@@ -8,6 +8,10 @@
     "build": "npx bili --bundle-node-modules",
     "publish": "npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyAtomsk/vue-vertical-timeline.git"
+  },
   "dependencies": {
     "rollup-plugin-vue": "^5.1.2"
   },

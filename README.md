@@ -6,20 +6,20 @@ npm install
 ```
 
 ### Usage
-1. Install plugin via npm
+1. Install plugin via npm  
 ```npm install vue-vertical-timeline --save```
-2. Register Vue plugin
-```import VerticalTimeline from 'vue-vertical-timeline';```
+2. Register Vue plugin  
+```import VerticalTimeline from 'vue-vertical-timeline';```  
 ```Vue.use(VerticalTimeline);```
-3. Place plugin into your component
+3. Place plugin into your component  
 ```<vertical-timeline :inputData="your-data-json" :reversed="false" />```
 
 ### Available props
-* ```:inputData```
-Prop type: Array
+* ```:inputData```  
+Prop type: Array  
 This is place, where you can pass your data in JSON format, recommended format is below README
-* ```:reversed```
-Prop type: Boolean
+* ```:reversed```  
+Prop type: Boolean  
 You can reverse timeline with this prop
 
 ## TODO:
