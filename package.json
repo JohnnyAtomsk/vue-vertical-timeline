@@ -1,0 +1,25 @@
+{
+  "name": "vue-vertical-timeline",
+  "version": "0.1.0",
+  "description": "Small Vue.js 2+ plugin for simple timelining from API",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve ./src/VerticalTimeline.vue",
+    "build": "npx bili --bundle-node-modules",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "rollup-plugin-vue": "^5.1.2"
+  },
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "JohnnyAtomsk",
+  "license": "ISC"
+}
