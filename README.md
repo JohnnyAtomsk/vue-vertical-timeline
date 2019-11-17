@@ -5,6 +5,9 @@
 npm install
 ```
 
+### Demo
+https://codesandbox.io/s/vue-vertical-timeline-demo-4gune
+
 ### Usage
 1. Install plugin via npm  
 ```npm install vue-vertical-timeline --save```
